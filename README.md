@@ -1,11 +1,12 @@
-## sbt project compiled with Scala 3
+## sbt project compiled with the Scala 3 nightly build
 
-### Usage
+This is a normal sbt project, but it's compiled with the Scala 3 nightly build.
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+One thing you can do with this is:
 
-For more information on the sbt-dotty plugin, see the
-[dotty-example-project](https://github.com/lampepfl/dotty-example-project/blob/master/README.md).
+- Start sbt
+- Issue the sbt `console` command
 
-This content was created from the instructions at https://github.com/scala/scala3-example-project
+That lets you use this project as a Scala 3 nightly-build REPL.
+
 
